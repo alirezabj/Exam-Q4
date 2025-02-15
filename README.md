@@ -47,9 +47,12 @@ The program is organized into different classes which represents households, dev
 Each subclass inherits from `DataPlan` and implements `calculatePlanCost()` differently
 
 `FixedDataPlan`: has a monthly data cap and charges extra fees if the user exceeds the cap
+
 `UnlimitedPlan`: no data cap and the users choose a speed tier which affects cost
+
 `DeviceBasedPlan`: a base plan cost with extra charges per connected device
-`PerDeviceFixedPlan`: similar to FixedDataPlan, but applies separate data limits for each device.
+
+`PerDeviceFixedPlan`: similar to FixedDataPlan, but applies separate data limits for each device
 
 
 
